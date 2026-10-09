@@ -1,4 +1,6 @@
-# Hi, I'm Ferdinand 👋
+<img src="profilebanner-svg.svg">
+
+
 
 I am a **Master's Engineering Student at Technische Hochschule Ingolstadt (THI)** working at the intersection of **automotive systems, intelligent software, and modern control engineering**. 
 

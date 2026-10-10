@@ -94,4 +94,4 @@ My engineering focus spans **Automotive & Mobility, EV Battery Management System
 
 ### 📫 Connect with Me
 - **University:** Technische Hochschule Ingolstadt (THI)
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/ferdinandyurichson/)
+- **LinkedIn:** [linkedin.com/in/ferdinandyurichson/](https://www.linkedin.com/in/ferdinandyurichson/)

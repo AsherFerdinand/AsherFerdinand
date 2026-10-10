@@ -82,7 +82,7 @@ My engineering focus spans **Automotive & Mobility, EV Battery Management System
 <table>
 <tr>
 <td width="50%" valign="top">
-<b><a href="https://github.com/yourusername/smart-heating-controller">Smart Heating System Controller</a></b><br>
+<b><a href="https://github.com/AsherFerdinand/SimulinkMATLAB-dynamic-hydronic-balancing-simulation">Smart Heating System Controller</a></b><br>
 <sub>Thermal dynamics simulation and predictive climate controller optimizing energy consumption in residential heating systems.</sub><br>
 <sub><code>Python</code> <code>MATLAB/Simulink</code> <code>Thermodynamics</code></sub>
 </td>

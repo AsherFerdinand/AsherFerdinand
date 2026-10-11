@@ -95,9 +95,12 @@ My engineering focus spans **Automotive & Mobility, EV Battery Management System
 <table>
 <tr>
 <td width="50%" valign="top">
-<b><a href="https://github.com/AsherFerdinand/3d-printed-electric-locomotive">3D-Printed Electric Toy Locomotive</a></b><br>
-<sub>Design and development of an electrically driven toy locomotive using CATIA V5, additive manufacturing, and iterative prototyping..</sub><br>
-<sub><code>Catia V5</code> <code>Ultimaker Cura 3D</code> <code>3D Printing</code> <code>Mechanical Design</code></sub>
+  <b>
+    <img src="svg/locomotive_logo.svg" width="30" height="30" align="center" alt="Locomotive Logo">
+    <a href="https://github.com/AsherFerdinand/3d-printed-electric-locomotive">3D-Printed Electric Toy Locomotive</a>
+  </b><br>
+  <sub>Design and development of an electrically driven toy locomotive using CATIA V5, additive manufacturing, and iterative prototyping..</sub><br>
+  <sub><code>Catia V5</code> <code>Ultimaker Cura 3D</code> <code>3D Printing</code> <code>Mechanical Design</code></sub>
 </td>
 <td width="50%" valign="top">
 <b><a href="https://github.com/yourusername/thermal-image-fault-detection">Car Parts</a></b><br>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="120" height="120">
+  <style>
+    /* Default - Light Mode (Dark gray train) */
+    .train-path {
+      stroke: #1E293B;
+      fill: none;
+      stroke-width: 7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    
+    /* Dark Mode (Dynamic white train) */
+    @media (prefers-color-scheme: dark) {
+      .train-path {
+        stroke: #FFFFFF;
+      }
+    }
+  </style>
+
+  <!-- Outer shell -->
+  <path d="M 32 80 C 24 80, 24 65, 24 53 C 24 34, 34 23, 50 23 C 66 23, 76 34, 76 53 C 76 65, 76 80, 68 80 Z" class="train-path" />
+
+  <!-- Left leg -->
+  <path d="M 33 79 L 26 90" class="train-path" />
+
+  <!-- Right leg -->
+  <path d="M 67 79 L 74 90" class="train-path" />
+
+  <!-- Inner windshield loop -->
+  <path d="M 40 44 C 40 33, 60 33, 60 44 L 60 48 C 60 56, 40 56, 40 48 Z" class="train-path" />
+
+  <!-- Left slanted headlight -->
+  <path d="M 34 65 L 40 71" class="train-path" />
+
+  <!-- Right slanted headlight -->
+  <path d="M 66 65 L 60 71" class="train-path" />
+</svg>

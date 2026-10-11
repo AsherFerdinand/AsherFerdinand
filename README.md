@@ -95,7 +95,7 @@ My engineering focus spans **Automotive & Mobility, EV Battery Management System
 <table>
 <tr>
 <td width="50%" valign="top">
-<b><a href="https://github.com/yourusername/Traffic-Monitoring-ML-Project">3D-Printed Electric Toy Locomotive</a></b><br>
+<b><a href="https://github.com/AsherFerdinand/3d-printed-electric-locomotive">3D-Printed Electric Toy Locomotive</a></b><br>
 <sub>Design and development of an electrically driven toy locomotive using CATIA V5, additive manufacturing, and iterative prototyping..</sub><br>
 <sub><code>Catia V5</code> <code>Ultimaker Cura 3D</code> <code>3D Printing</code> <code>Mechanical Design</code></sub>
 </td>

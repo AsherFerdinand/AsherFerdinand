@@ -21,12 +21,12 @@ My engineering focus spans **Automotive & Mobility, EV Battery Management System
 ![Linux / WSL](https://img.shields.io/badge/Linux%20%2F%20WSL-FCC624?logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
-### Protocols & Hardware Testing
-![CAN / OBD-II](https://img.shields.io/badge/CAN%20%C2%B7%20OBD--II-3DBFA7)
-![UDS / ISO-TP](https://img.shields.io/badge/UDS%20%C2%B7%20ISO--TP-2088FF)
-![vCAN / Telemetry](https://img.shields.io/badge/vCAN%20%C2%B7%20Telemetry-008080)
-![HiL / SiL Simulation](https://img.shields.io/badge/HiL%20%2F%20SiL-512BD4)
-
+### Domain Knowledge
+![Control Systems](https://img.shields.io/badge/Control%20Systems-00599C?style=flat-square)
+![Vehicle Dynamics](https://img.shields.io/badge/Vehicle%20Dynamics-D14836?style=flat-square)
+![Automotive Software](https://img.shields.io/badge/Automotive%20Software-008080?style=flat-square)
+![CAD & Construction](https://img.shields.io/badge/CAD%20%26%20Construction-FF6F00?style=flat-square)
+![Microservices & Cloud](https://img.shields.io/badge/Microservices%20%26%20Cloud-009688?style=flat-square)
 ---
 
 ## 🚀 Projects

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="120" height="120">
+  <style>
+    /* Default - Light Mode (Dark slate cloud) */
+    .cloud-path {
+      stroke: #1E293B;
+      fill: none;
+      stroke-width: 7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    
+    /* Dark Mode (Dynamic white cloud) */
+    @media (prefers-color-scheme: dark) {
+      .cloud-path {
+        stroke: #FFFFFF;
+      }
+    }
+  </style>
+
+  <!-- Cloud outer shell -->
+  <path d="M 28 66 H 72 C 85 66, 87 48, 75 43 C 77 27, 54 20, 45 32 C 35 25, 16 41, 28 66 Z" class="cloud-path" />
+
+  <!-- API / Cloud upload arrow -->
+  <path d="M 50 66 V 47" class="cloud-path" />
+  <path d="M 42 55 L 50 47 L 58 55" class="cloud-path" />
+</svg>

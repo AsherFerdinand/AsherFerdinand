@@ -77,6 +77,22 @@ My engineering focus spans **Automotive & Mobility, EV Battery Management System
 </tr>
 </table>
 
+### Cloud Architecture & Microservices
+
+<table>
+<tr>
+<td width="50%" valign="top">
+  <b>
+    <img src="svg/cloud_logo.svg" width="30" height="30" align="center" alt="Cloud Logo">
+    <a href="https://github.com/AsherFerdinand/docker-fastapi-microservice-stack">Cloud Media & Auth Microservice Platform</a>
+  </b><br>
+  <sub>Containerized full-stack platform featuring JWT authentication, Nginx gateway routing, PostgreSQL metadata persistence, and Redis caching.</sub><br>
+  <sub><code>FastAPI</code> <code>Docker</code> <code>Nginx</code> <code>PostgreSQL</code> <code>Redis</code> <code>Python</code></sub>
+</td>
+<td width="50%" valign="top"></td>
+</tr>
+</table>
+
 ### Smart Thermal Systems & Automation
 
 <table>

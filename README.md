@@ -14,6 +14,11 @@ My engineering focus spans **Automotive & Mobility, EV Battery Management System
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-e16737?logo=matlab&logoColor=white)
 ![Simulink](https://img.shields.io/badge/Simulink-0076A8?logo=simulink&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
@@ -26,7 +31,8 @@ My engineering focus spans **Automotive & Mobility, EV Battery Management System
 ![Vehicle Dynamics](https://img.shields.io/badge/Vehicle%20Dynamics-D14836?style=flat-square)
 ![Automotive Software](https://img.shields.io/badge/Automotive%20Software-008080?style=flat-square)
 ![CAD & Construction](https://img.shields.io/badge/CAD%20%26%20Construction-FF6F00?style=flat-square)
-![Microservices & Cloud](https://img.shields.io/badge/Microservices%20%26%20Cloud-009688?style=flat-square)
+![Cloud Architecture & APIs](https://img.shields.io/badge/Cloud%20Architecture%20%26%20APIs-009688?style=flat-square)
+![HMI & Spatial Interactive UI](https://img.shields.io/badge/HMI%20%26%20Spatial%20Interactive%20UI-6C5CE7?style=flat-square)
 ---
 
 ## 🚀 Projects

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Ferdinand Yurichson — Automotive Engineering &amp; Intelligent Software</title>
+  <desc id="desc">Dark navy engineering banner with a minimal vehicle outline, battery and signal traces.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0B1220"/><stop offset="1" stop-color="#10333F"/></linearGradient>
+    <linearGradient id="trace"><stop stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <g fill="none" stroke="#41C7D9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".35">
+    <path d="M44 157h28l28-31h96l40 31h32v25h-21m-142 0H82v-25m63 25h62"/>
+    <circle cx="125" cy="182" r="16"/><circle cx="227" cy="182" r="16"/>
+    <path d="M102 126l15-21h59l20 21M57 225h115l22-22h75"/>
+    <rect x="974" y="113" width="154" height="71" rx="8"/><path d="M1128 135h11v27h-11M991 126v45m25-45v45m25-45v45m25-45v45m25-45v45"/>
+    <path d="M936 150h-29l-22 22h-25M981 204h-70l-24 24h-60"/>
+    <circle cx="860" cy="172" r="4"/><circle cx="827" cy="228" r="4"/>
+  </g>
+  <path d="M35 265h285l32-22h496l32 22h285" fill="none" stroke="url(#trace)" stroke-width="1.5" opacity=".6"/>
+  <text x="600" y="102" text-anchor="middle" fill="#F8FAFC" font-size="65" font-weight="700" font-family="Segoe UI,Arial,sans-serif">Ferdinand Yurichson</text>
+  <text x="600" y="152" text-anchor="middle" fill="#CBD5E1" font-size="25" font-family="Segoe UI,Arial,sans-serif">Automotive Engineering · Simulation · Intelligent Software</text>
+  <path d="M460 179h280" stroke="#22D3EE" stroke-width="2" opacity=".8"/>
+  <text x="600" y="220" text-anchor="middle" fill="#67E8F9" font-size="20" font-family="Consolas,monospace">EV SYSTEMS  /  ADAS  /  CAN  /  BATTERY ML</text>
+  <text x="600" y="273" text-anchor="middle" fill="#94A3B8" font-size="15" font-family="Segoe UI,Arial,sans-serif">M.Sc. Automotive Engineering student · TH Ingolstadt</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="VEUS car simulation">
+<style>.s{fill:none;stroke:#1e293b;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.s{stroke:#f8fafc}}</style>
+<path class="s" d="M13 58h8l13-20h34l13 20h6v17H13zM34 38l-6 20h44l-9-20M26 75v8m48-8v8"/>
+<circle class="s" cx="29" cy="75" r="9"/><circle class="s" cx="72" cy="75" r="9"/><path class="s" d="M49 20v11m-12-6 12-5 12 5"/>
+</svg>

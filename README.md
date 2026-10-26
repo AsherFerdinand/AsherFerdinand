@@ -1,138 +1,107 @@
-<img src="profilebanner-svg.svg">
+<div align="center">
+  <img src="profilebanner-svg.svg" alt="Ferdinand Yurichson — automotive engineering, simulation and software" width="100%">
+</div>
 
+### Hi, I'm Ferdinand 👋
 
+I'm a **Master's student in Automotive Engineering at Technische Hochschule Ingolstadt (THI)**, with a background in mechanical engineering and automotive production planning.
 
-I am a **Master's Engineering Student at Technische Hochschule Ingolstadt (THI)** working at the intersection of **automotive systems, intelligent software, and modern control engineering**. 
+I build **engineering tools that connect physical models, vehicle data and software** — from EV/ADAS simulations and battery-health estimation to CAN telemetry, test automation and interactive applications. My interests are particularly in **vehicle dynamics, battery systems, verification, Python and applied machine learning**.
 
-My engineering focus spans **Automotive & Mobility, EV Battery Management Systems (BMS), ADAS, Vehicle Dynamics, CAN/OBD-II Diagnostics, and MATLAB/Simulink simulation**. Beyond automotive applications, I build solutions involving **AI/ML, image recognition/computer vision, and intelligent heating systems**.
+<sub>Based in Germany · Mechanical Engineering (B.Eng.) · Automotive Engineering (Master's student)</sub>
 
 ---
 
-## 🛠️ Toolbox
+## Toolbox
 
-### Core Stack
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-e16737?logo=matlab&logoColor=white)
-![Simulink](https://img.shields.io/badge/Simulink-0076A8?logo=simulink&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
-![Linux / WSL](https://img.shields.io/badge/Linux%20%2F%20WSL-FCC624?logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+**Programming & applications**  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white) ![MATLAB](https://img.shields.io/badge/MATLAB-e16737)
 
-### Domain Knowledge
-![Control Systems](https://img.shields.io/badge/Control%20Systems-00599C?style=flat-square)
-![Vehicle Dynamics](https://img.shields.io/badge/Vehicle%20Dynamics-D14836?style=flat-square)
-![Automotive Software](https://img.shields.io/badge/Automotive%20Software-008080?style=flat-square)
-![CAD & Construction](https://img.shields.io/badge/CAD%20%26%20Construction-FF6F00?style=flat-square)
-![Cloud Architecture & APIs](https://img.shields.io/badge/Cloud%20Architecture%20%26%20APIs-009688?style=flat-square)
-![HMI & Spatial Interactive UI](https://img.shields.io/badge/HMI%20%26%20Spatial%20Interactive%20UI-6C5CE7?style=flat-square)
+**Simulation, data & AI**  
+![Simulink](https://img.shields.io/badge/Simulink-0076A8) ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+
+**Web, backend & development**  
+![React](https://img.shields.io/badge/React-149ECA?logo=react&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?logo=tauri&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+
+**Engineering tools & areas**  
+`CATIA V5` · `SolidWorks` · `Ultimaker Cura` · `Vehicle Dynamics` · `ACC/AEB` · `Battery SOH` · `CAN / DBC` · `Control Systems` · `Thermal Simulation` · `Test Automation`
+
 ---
 
-## 🚀 Projects
-
-### Automotive, Mobility & Battery Systems
+## Featured automotive projects
 
 <table>
-<tr>
-<td width="50%" valign="top">
-<b><a href="https://github.com/yourusername/vcan-ecu-telemetry-dashboard">vCAN ECU Telemetry Dashboard</a></b><br>
-<sub>Simulates real-time vehicle ECU telemetry (engine speed, battery temperature, RPM) over virtual CAN socket interfaces on Linux/WSL with live visualization.</sub><br>
-<sub><code>Python</code> <code>vCAN</code> <code>SocketCAN</code> <code>Linux/WSL</code></sub>
-</td>
-<td width="50%" valign="top">
-<b><a href="https://github.com/yourusername/bms-battery-health-analyzer">BMS Health & Thermal Monitor</a></b><br>
-<sub>Simulates electric vehicle battery state-of-charge (SoC), cell voltage distribution, and thermal characteristics with predictive degradation modeling.</sub><br>
-<sub><code>MATLAB/Simulink</code> <code>Python</code> <code>BMS</code> <code>OBD-II</code></sub>
-</td>
-</tr>
-<tr>
-<td valign="top">
-<b><a href="https://github.com/yourusername/adas-vehicle-dynamics-sim">ADAS & Vehicle Dynamics Simulator</a></b><br>
-<sub>A dynamic vehicle controller incorporating ADAS features like Adaptive Cruise Control and Lane Keeping Assist using multi-body vehicle models.</sub><br>
-<sub><code>MATLAB/Simulink</code> <code>Control Systems</code> <code>Vehicle Dynamics</code></sub>
-</td>
-<td valign="top">
-<b><a href="https://github.com/yourusername/obd2-uds-diagnostic-tool">OBD-II UDS Diagnostic Reader</a></b><br>
-<sub>A lightweight diagnostic tool to parse real-time vehicle parameters, standard error codes (DTCs), and raw CAN bus data streams.</sub><br>
-<sub><code>Python</code> <code>CAN</code> <code>OBD-II</code> <code>UDS</code></sub>
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="svg/veus.svg" width="34" height="34" alt="VEUS icon"><br>
+      <b><a href="https://github.com/AsherFerdinand/VEUS-ev-testbench">VEUS — EV Simulation & ADAS Testbench</a></b><br>
+      <sub>Interactive vehicle physics and EV powertrain simulator with battery/regen modelling, cruise control, ACC, simplified AEB, live plots and scenario-based verification.</sub><br><br>
+      <sub><code>Python</code> <code>Vehicle Physics</code> <code>ADAS</code> <code>Testing</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <img src="svg/battery.svg" width="34" height="34" alt="Battery analytics icon"><br>
+      <b><a href="https://github.com/AsherFerdinand/ev-battery-health-ml">EV Battery Health Prediction & Anomaly Detection</a></b><br>
+      <sub>NASA battery-cycle analysis and SOH estimation using time-windowed features, cell-held-out validation, anomaly flags and a historical replay dashboard. Model limitations are documented.</sub><br><br>
+      <sub><code>Python</code> <code>scikit-learn</code> <code>BMS / SOH</code> <code>ML Validation</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="svg/can.svg" width="34" height="34" alt="CAN telemetry icon"><br>
+      <b><a href="https://github.com/AsherFerdinand/vcan-ecu-telemetry-dashboard">Virtual ECU & CAN Laboratory</a></b><br>
+      <sub>Modular ECU simulator and telemetry receiver with DBC decoding, transport-independent records, candump/CSV/JSON import and a Streamlit dashboard. CAN hardware integration is future work.</sub><br><br>
+      <sub><code>Python</code> <code>cantools</code> <code>CAN / DBC</code> <code>Streamlit</code></sub>
+    </td>
+    <td valign="top">
+      <img src="svg/thermal.svg" width="34" height="34" alt="Heating system icon"><br>
+      <b><a href="https://github.com/AsherFerdinand/SimulinkMATLAB-dynamic-hydronic-balancing-simulation">Dynamic Hydronic Balancing — Bachelor's Thesis</a></b><br>
+      <sub>Simscape simulation of a 36-room apartment-building heating network, comparing uncontrolled, decentralised and centralised thermostat strategies for room temperature distribution.</sub><br><br>
+      <sub><code>MATLAB</code> <code>Simulink / Simscape</code> <code>Control</code> <code>Thermal Systems</code></sub>
+    </td>
+  </tr>
 </table>
 
-### AI/ML & Image Recognition
+<sub>Engineering direction: connect simulated vehicle behaviour (VEUS), ECU/CAN telemetry and battery-health analytics into a common validation workflow. This is a roadmap, not a claim of completed integration.</sub>
+
+## Software & engineering projects
 
 <table>
-<tr>
-<td width="50%" valign="top">
-<b><a href="https://github.com/yourusername/Traffic-Monitoring-ML-Project">Traffic Monitoring ML Project</a></b><br>
-<sub>Computer vision pipeline using YOLOv8 for real-time object detection and tracking in traffic scenarios with H.264 video streaming integrations.</sub><br>
-<sub><code>Python</code> <code>YOLOv8</code> <code>PyTorch</code> <code>OpenCV</code></sub>
-</td>
-<td width="50%" valign="top">
-<b><a href="https://github.com/yourusername/thermal-image-fault-detection">Thermal Image Fault Detection</a></b><br>
-<sub>Convolutional Neural Network (CNN) model designed to identify structural and thermal defects from infrared camera inspections.</sub><br>
-<sub><code>Python</code> <code>PyTorch</code> <code>Computer Vision</code></sub>
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="svg/orbit.svg" width="34" height="34" alt="ORBIT desktop icon"><br>
+      <b>ORBIT — Windows Dynamic Island</b><br>
+      <sub>Lightweight always-on-top Windows overlay with system monitoring, native volume controls, battery status and Brave media session integration. Built with Tauri, React and Rust.</sub><br><br>
+      <sub><code>Tauri 2</code> <code>Rust</code> <code>React</code> <code>TypeScript</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <img src="svg/cloud.svg" width="34" height="34" alt="Cloud platform icon"><br>
+      <b><a href="https://github.com/AsherFerdinand/docker-fastapi-microservice-stack">Cloud Media & Auth Microservice Platform</a></b><br>
+      <sub>Containerised backend platform with JWT authentication, Nginx API gateway, PostgreSQL persistence and Redis caching.</sub><br><br>
+      <sub><code>FastAPI</code> <code>Docker</code> <code>Nginx</code> <code>PostgreSQL</code> <code>Redis</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="svg/locomotive.svg" width="34" height="34" alt="Locomotive icon"><br>
+      <b><a href="https://github.com/AsherFerdinand/3d-printed-electric-locomotive">3D-Printed Electric Locomotive</a></b><br>
+      <sub>University group project; team lead with primary contributions to housing, chassis, coupling design and 3D-print slicing.</sub><br><br>
+      <sub><code>CATIA V5</code> <code>Ultimaker Cura</code> <code>3D Printing</code> <code>Team Leadership</code></sub>
+    </td>
+    <td valign="top">
+      <b>More experiments</b><br>
+      <sub>Smaller exploratory projects in computer vision, solubility prediction, CFD surrogates and web development are available in my repositories.</sub><br><br>
+      <sub><a href="https://github.com/AsherFerdinand?tab=repositories">Browse all repositories</a></sub>
+    </td>
+  </tr>
 </table>
 
-### Cloud Architecture & Microservices
+---
 
-<table>
-<tr>
-<td width="50%" valign="top">
-  <b>
-    <img src="svg/cloud_logo.svg" width="30" height="30" align="center" alt="Cloud Logo">
-    <a href="https://github.com/AsherFerdinand/docker-fastapi-microservice-stack">Cloud Media & Auth Microservice Platform</a>
-  </b><br>
-  <sub>Containerized full-stack platform featuring JWT authentication, Nginx gateway routing, PostgreSQL metadata persistence, and Redis caching.</sub><br>
-  <sub><code>FastAPI</code> <code>Docker</code> <code>Nginx</code> <code>PostgreSQL</code> <code>Redis</code> <code>Python</code></sub>
-</td>
-<td width="50%" valign="top"></td>
-</tr>
-</table>
+<div align="center">
+  <sub>Interested in automotive simulation, vehicle software, test automation and applied AI.</sub><br>
+  <a href="https://github.com/AsherFerdinand?tab=repositories">Explore my repositories</a>
+</div>
 
-### Smart Thermal Systems & Automation
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<b>
-  <img src="svg/home_heating_logo.svg" width="30" height="30" align="center">
-  <a href="https://github.com/AsherFerdinand/SimulinkMATLAB-dynamic-hydronic-balancing-simulation">Smart Heating System Controller</a></b><br>
-<sub>Thermal dynamics simulation and predictive climate controller optimizing energy consumption in residential heating systems.</sub><br>
-<sub><code>Python</code> <code>MATLAB/Simulink</code> <code>Thermodynamics</code></sub>
-</td>
-<td width="50%" valign="top"></td>
-</tr>
-</table>
-
-### CAD/Construction
-
-<table>
-<tr>
-<td width="50%" valign="top">
-  <b>
-    <img src="svg/locomotive_logo.svg" width="30" height="30" align="center" alt="Locomotive Logo">
-    <a href="https://github.com/AsherFerdinand/3d-printed-electric-locomotive">3D-Printed Electric Toy Locomotive</a>
-  </b><br>
-  <sub>Design and development of an electrically driven toy locomotive using CATIA V5, additive manufacturing, and iterative prototyping..</sub><br>
-  <sub><code>Catia V5</code> <code>Ultimaker Cura 3D</code> <code>3D Printing</code> <code>Mechanical Design</code></sub>
-</td>
-<td width="50%" valign="top">
-<b><a href="https://github.com/yourusername/thermal-image-fault-detection">Car Parts</a></b><br>
-<sub>COmpleted my Uni Praktikum Übungen on constructing 3D models of individual car parts and a final assembly.</sub><br>
-<sub><code>Catia V5</code> 
-</td>
-</tr>
-</table>
 ---
 
 ### 📫 Connect with Me

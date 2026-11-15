@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="cloud icon">
-<style>.line{fill:none;stroke:#b84c0a;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#fb923c}}</style>
-<g class="line"><path d="M18 38a10 10 0 0 1-1-20 15 15 0 0 1 28-1 11 11 0 0 1 2 21M32 28v16m-13 8h26M19 44v8m26-8v8"/><circle cx="32" cy="26" r="3"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Cloud upload</title>
+<style>.line{fill:none;stroke:#1f2937;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}.direction{stroke:#c2410c}@media(prefers-color-scheme:dark){.line{stroke:#f1f5f9}.direction{stroke:#fb923c}}</style>
+<path class="line" d="M20 49h25a12 12 0 0 0 1-24 15 15 0 0 0-29-2 13 13 0 0 0 3 26z"/>
+<path class="line direction" d="M32 41V25m-7 7 7-7 7 7"/>
 </svg>

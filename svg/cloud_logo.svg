@@ -2,7 +2,7 @@
   <style>
     /* Default - Light Mode (Dark slate cloud) */
     .cloud-path {
-      stroke: #1E293B;
+      stroke: #B84C0A;
       fill: none;
       stroke-width: 7;
       stroke-linecap: round;
@@ -12,7 +12,7 @@
     /* Dark Mode (Dynamic white cloud) */
     @media (prefers-color-scheme: dark) {
       .cloud-path {
-        stroke: #FFFFFF;
+        stroke: #FB923C;
       }
     }
   </style>

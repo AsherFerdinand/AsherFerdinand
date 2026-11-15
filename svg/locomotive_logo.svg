@@ -2,7 +2,7 @@
   <style>
     /* Default - Light Mode (Dark gray train) */
     .train-path {
-      stroke: #1E293B;
+      stroke: #B84C0A;
       fill: none;
       stroke-width: 7;
       stroke-linecap: round;
@@ -12,7 +12,7 @@
     /* Dark Mode (Dynamic white train) */
     @media (prefers-color-scheme: dark) {
       .train-path {
-        stroke: #FFFFFF;
+        stroke: #FB923C;
       }
     }
   </style>

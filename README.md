@@ -56,7 +56,7 @@ Several software-intensive projects below were architected and iteratively devel
       <sub>Python · python-can · cantools · Streamlit</sub>
     </td>
     <td width="50%" valign="top">
-      <img src="svg/simulation.svg" width="32" height="32" alt=""><br>
+      <img src="svg/vector.svg" width="32" height="32" alt=""><br>
       <b><a href="https://github.com/AsherFerdinand/VECTOR">VECTOR — Vehicle Simulation Foundation</a></b><br><br>
       Browser-based 3D vehicle laboratory with a deterministic kinematic bicycle model, manual driving and live telemetry. The v0.1 foundation excludes autonomous navigation, sensors and collision response.<br><br>
       <sub>TypeScript · React · Three.js · Vitest</sub>

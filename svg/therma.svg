@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">THERMA — thermal zones and heat flow</title>
+<style>.line{fill:none;stroke:#C2410C;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#FB923C}}</style>
+<g class="line"><path d="M18 18h64v64H18zM18 50h64M50 18v64M29 34h42m-7-6 7 6-7 6M71 67H29m7-6-7 6 7 6"/></g>
+</svg>

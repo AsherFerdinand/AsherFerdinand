@@ -75,7 +75,7 @@ Several software-intensive projects below were architected and iteratively devel
       <sub>MATLAB · Simulink · Simscape · thermal control</sub>
     </td>
     <td width="50%" valign="top">
-      <img src="svg/thermal.svg" width="32" height="32" alt=""><br>
+      <img src="svg/therma.svg" width="32" height="32" alt=""><br>
       <b><a href="https://github.com/AsherFerdinand/THERMA">THERMA — Thermal Systems Research</a></b><br><br>
       Hydronic-heating digital-twin research with a completed static reference inventory, migration/data plans and MATLAB diagnostic tooling. MATLAB execution and reference validation remain pending; the physics solver and web application are planned.<br><br>
       <sub>Python · reference analysis · model migration</sub>

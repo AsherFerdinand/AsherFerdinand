@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="orbit icon">
-<style>.line{fill:none;stroke:#b84c0a;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#fb923c}}</style>
-<g class="line"><rect x="8" y="14" width="48" height="36" rx="6"/><rect x="22" y="19" width="20" height="6" rx="3"/><path d="M17 41v-7m6 7V30m6 11v-5m10-3 7 4-7 4z"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">ORBIT — desktop island</title>
+<style>.line{fill:none;stroke:#C2410C;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#FB923C}}</style>
+<g class="line"><rect x="12" y="29" width="76" height="42" rx="21"/>
+<ellipse cx="50" cy="50" rx="17" ry="10" transform="rotate(-25 50 50)"/><circle cx="50" cy="50" r="2"/><circle cx="65" cy="43" r="3"/></g>
 </svg>

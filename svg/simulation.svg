@@ -1,4 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="simulation icon">
-<style>.line{fill:none;stroke:#b84c0a;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#fb923c}}</style>
-<g class="line"><path d="M10 10v43h45M16 40l9-18 10 23 9-13 10 4"/><path d="M17 14h10m17 0h10M32 10v8"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">VIBRA — beam vibration</title>
+<style>
+  .line{fill:none;stroke:#C2410C;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+  @media(prefers-color-scheme:dark){.line{stroke:#FB923C}}
+</style>
+<path class="line" d="M15 66h70M19 57v18M24 36c6-20 12-20 18 0s12 20 18 0 12-20 18 0"/>
 </svg>

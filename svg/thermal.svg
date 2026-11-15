@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="thermal icon">
-<style>.line{fill:none;stroke:#b84c0a;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#fb923c}}</style>
-<g class="line"><path d="M10 29l22-18 22 18M16 25v29h32V25M24 46V31m8 15V31m8 15V31M21 50h22"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">Home Heating — hydronic radiator</title>
+<style>.line{fill:none;stroke:#C2410C;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#FB923C}}</style>
+<g class="line"><path d="M14 44l36-28 36 28M22 39v44h56V39"/>
+<rect x="33" y="49" width="34" height="23" rx="3"/><path d="M44 50v21m12-21v21M29 61h4m34 0h5"/></g>
 </svg>

@@ -1,11 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-<title id="title">VECTOR — vehicle navigation in a coordinate frame</title>
-<desc id="desc">A top-down vehicle, a direction vector and two perception arcs inside a square coordinate frame.</desc>
-<style>.line{fill:none;stroke:#1f2937;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}.direction{stroke:#c2410c}@media(prefers-color-scheme:dark){.line{stroke:#f1f5f9}.direction{stroke:#fb923c}}</style>
-<g class="line">
-<path d="M8 8h48v48H8zM8 44h4m-4-12h4m-4-12h4m8 36v-4m12 4v-4m12 4v-4"/>
-<rect x="20" y="27" width="14" height="22" rx="4"/>
-<path d="M23 33h8m-8 10h8M35 27a10 10 0 0 1 7 9m-5-16a17 17 0 0 1 12 15"/>
-<path class="direction" d="M27 27l18-13m-8 0h8v8"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">VECTOR — local vehicle coordinate frame</title>
+<style>.line{fill:none;stroke:#C2410C;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#FB923C}}</style>
+<g class="line"><path d="M45 64V15m-7 8 7-8 7 8M45 64l39-23m-12-1 12 1-5 11M45 64L15 46m3 12-3-12 12 1"/>
+<path d="M39 70l22-13 15 9-22 13zM45 70l10 6"/></g>
 </svg>

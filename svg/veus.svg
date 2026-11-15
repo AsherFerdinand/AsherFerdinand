@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="veus icon">
-<style>.line{fill:none;stroke:#b84c0a;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#fb923c}}</style>
-<g class="line"><path d="M8 37h5l8-13h22l8 13h5v12H8zM21 24l-4 13h30l-8-13"/><circle cx="19" cy="49" r="5"/><circle cx="45" cy="49" r="5"/><path d="M28 10h8l-5 7h6l-8 9"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">veus icon</title>
+<style>.line{fill:none;stroke:#C2410C;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#FB923C}}</style>
+<g class="line"><g transform="scale(1.5625)" stroke-width="3.84"><path d="M8 37h5l8-13h22l8 13h5v12H8zM21 24l-4 13h30l-8-13" /><circle cx="19" cy="49" r="5" /><circle cx="45" cy="49" r="5" /><path d="M28 10h8l-5 7h6l-8 9" /></g></g>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="CAN bus and ECU">
-<style>.s{fill:none;stroke:#1e293b;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.s{stroke:#f8fafc}}</style>
-<rect class="s" x="30" y="28" width="40" height="44" rx="5"/><path class="s" d="M40 42h20v16H40zM30 38H16m14 24H16m54-24h14M70 62h14M50 16v12m0 44v12"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="can icon">
+<style>.line{fill:none;stroke:#b84c0a;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#fb923c}}</style>
+<g class="line"><path d="M8 32h48M17 32V18h13m17 14v14H34"/><rect x="9" y="9" width="20" height="9" rx="2"/><rect x="34" y="46" width="20" height="9" rx="2"/><circle cx="17" cy="32" r="3"/><circle cx="47" cy="32" r="3"/></g>
 </svg>

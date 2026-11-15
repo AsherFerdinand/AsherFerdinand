@@ -1,109 +1,114 @@
 <div align="center">
-  <img src="profilebanner-svg.svg" alt="Ferdinand Yurichson — automotive engineering, simulation and software" width="100%">
+  <img src="profilebanner-svg.svg" alt="Ferdinand Yurichson — Automotive Engineering · Simulation · Intelligent Software" width="100%">
 </div>
 
-### Hi, I'm Ferdinand 👋
+## Engineering through models, data and software
 
-I'm a **Master's student in Automotive Engineering at Technische Hochschule Ingolstadt (THI)**, with a background in mechanical engineering and automotive production planning.
+I'm **Ferdinand Yurichson**, a Master's student in **Automotive Engineering at Technische Hochschule Ingolstadt (THI)**, with a background in mechanical engineering. My work connects automotive systems, simulation and digital engineering with software tools and applied AI: EV and battery analytics, CAN telemetry, engineering dashboards and human–machine interfaces.
 
-I build **engineering tools that connect physical models, vehicle data and software** — from EV/ADAS simulations and battery-health estimation to CAN telemetry, test automation and interactive applications. My interests are particularly in **vehicle dynamics, battery systems, verification, Python and applied machine learning**.
-
-<sub>Based in Germany · Mechanical Engineering (B.Eng.) · Automotive Engineering (Master's student)</sub>
-
----
+Several software-intensive projects below were architected and iteratively developed in collaboration with **OpenAI Codex**. I defined the engineering direction, feature priorities, validation goals and overall project scope.
 
 ## Toolbox
 
-**Programming & applications**  
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white) ![MATLAB](https://img.shields.io/badge/MATLAB-e16737)
+| Area | Tools & methods |
+| --- | --- |
+| Core software | Python · Rust · TypeScript / JavaScript · React · Tauri · Git / GitHub |
+| Engineering & simulation | MATLAB · Simulink · Simscape · NumPy · Matplotlib · vehicle dynamics · control systems |
+| Data & analytics | pandas · scikit-learn · chronological and held-out-cell evaluation · Streamlit |
+| Automotive & systems | CAN · DBC · python-can · SocketCAN · EV telemetry · scenario-based verification |
+| Platforms & interfaces | FastAPI · Docker · PostgreSQL · Redis · Nginx · native Windows APIs |
+| Mechanical & design | CATIA V5 · SolidWorks · Ultimaker Cura · additive manufacturing |
 
-**Simulation, data & AI**  
-![Simulink](https://img.shields.io/badge/Simulink-0076A8) ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-
-**Web, backend & development**  
-![React](https://img.shields.io/badge/React-149ECA?logo=react&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?logo=tauri&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-
-**Engineering tools & areas**  
-`CATIA V5` · `SolidWorks` · `Ultimaker Cura` · `Vehicle Dynamics` · `ACC/AEB` · `Battery SOH` · `CAN / DBC` · `Control Systems` · `Thermal Simulation` · `Test Automation`
-
----
-
-## Featured automotive projects
+## Automotive Systems & EV Data
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="svg/veus.svg" width="34" height="34" alt="VEUS icon"><br>
-      <b><a href="https://github.com/AsherFerdinand/VEUS-ev-testbench">VEUS — EV Simulation & ADAS Testbench</a></b><br>
-      <sub>Interactive vehicle physics and EV powertrain simulator with battery/regen modelling, cruise control, ACC, simplified AEB, live plots and scenario-based verification.</sub><br><br>
-      <sub><code>Python</code> <code>Vehicle Physics</code> <code>ADAS</code> <code>Testing</code></sub>
+      <img src="svg/veus.svg" width="32" height="32" alt=""><br>
+      <b><a href="https://github.com/AsherFerdinand/VEUS-ev-testbench">VEUS — EV Engineering Testbench</a></b><br><br>
+      Interactive longitudinal EV simulation, simplified ACC/AEB and scenario-based verification. Recorded-EV replay and investigation are documented on the development branch; physical model validation remains inconclusive.<br><br>
+      <sub>Python · FastAPI · NumPy · ADAS</sub>
     </td>
     <td width="50%" valign="top">
-      <img src="svg/battery.svg" width="34" height="34" alt="Battery analytics icon"><br>
-      <b><a href="https://github.com/AsherFerdinand/ev-battery-health-ml">EV Battery Health Prediction & Anomaly Detection</a></b><br>
-      <sub>NASA battery-cycle analysis and SOH estimation using time-windowed features, cell-held-out validation, anomaly flags and a historical replay dashboard. Model limitations are documented.</sub><br><br>
-      <sub><code>Python</code> <code>scikit-learn</code> <code>BMS / SOH</code> <code>ML Validation</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <img src="svg/can.svg" width="34" height="34" alt="CAN telemetry icon"><br>
-      <b><a href="https://github.com/AsherFerdinand/vcan-ecu-telemetry-dashboard">Virtual ECU & CAN Laboratory</a></b><br>
-      <sub>Modular ECU simulator and telemetry receiver with DBC decoding, transport-independent records, candump/CSV/JSON import and a Streamlit dashboard. CAN hardware integration is future work.</sub><br><br>
-      <sub><code>Python</code> <code>cantools</code> <code>CAN / DBC</code> <code>Streamlit</code></sub>
-    </td>
-    <td valign="top">
-      <img src="svg/thermal.svg" width="34" height="34" alt="Heating system icon"><br>
-      <b><a href="https://github.com/AsherFerdinand/SimulinkMATLAB-dynamic-hydronic-balancing-simulation">Dynamic Hydronic Balancing — Bachelor's Thesis</a></b><br>
-      <sub>Simscape simulation of a 36-room apartment-building heating network, comparing uncontrolled, decentralised and centralised thermostat strategies for room temperature distribution.</sub><br><br>
-      <sub><code>MATLAB</code> <code>Simulink / Simscape</code> <code>Control</code> <code>Thermal Systems</code></sub>
+      <img src="svg/battery.svg" width="32" height="32" alt=""><br>
+      <b><a href="https://github.com/AsherFerdinand/ev-battery-health-ml">EV Battery Health ML</a></b><br><br>
+      NASA battery-ageing study with windowed SOH estimation, degradation forecasting and historical replay. Chronological and held-out-cell evaluation expose generalisation limits; this is exploratory laboratory research.<br><br>
+      <sub>Python · scikit-learn · pandas · HTML dashboard</sub>
     </td>
   </tr>
 </table>
-
-<sub>Engineering direction: connect simulated vehicle behaviour (VEUS), ECU/CAN telemetry and battery-health analytics into a common validation workflow. This is a roadmap, not a claim of completed integration.</sub>
-
-## Software & engineering projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="svg/orbit.svg" width="34" height="34" alt="ORBIT desktop icon"><br>
-      <b>ORBIT — Windows Dynamic Island</b><br>
-      <sub>Lightweight always-on-top Windows overlay with system monitoring, native volume controls, battery status and Brave media session integration. Built with Tauri, React and Rust.</sub><br><br>
-      <sub><code>Tauri 2</code> <code>Rust</code> <code>React</code> <code>TypeScript</code></sub>
+      <img src="svg/can.svg" width="32" height="32" alt=""><br>
+      <b><a href="https://github.com/AsherFerdinand/vcan-ecu-telemetry-dashboard">VCAN — CAN Engineering Studio</a></b><br><br>
+      Inspect classical CAN frames, DBC decoding, virtual ECU communication and bitwise arbitration. Recorded-data workflows retain provenance and quality checks; hardware and independent physical validation remain outstanding.<br><br>
+      <sub>Python · python-can · cantools · Streamlit</sub>
     </td>
     <td width="50%" valign="top">
-      <img src="svg/cloud.svg" width="34" height="34" alt="Cloud platform icon"><br>
-      <b><a href="https://github.com/AsherFerdinand/docker-fastapi-microservice-stack">Cloud Media & Auth Microservice Platform</a></b><br>
-      <sub>Containerised backend platform with JWT authentication, Nginx API gateway, PostgreSQL persistence and Redis caching.</sub><br><br>
-      <sub><code>FastAPI</code> <code>Docker</code> <code>Nginx</code> <code>PostgreSQL</code> <code>Redis</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <img src="svg/locomotive.svg" width="34" height="34" alt="Locomotive icon"><br>
-      <b><a href="https://github.com/AsherFerdinand/3d-printed-electric-locomotive">3D-Printed Electric Locomotive</a></b><br>
-      <sub>University group project; team lead with primary contributions to housing, chassis, coupling design and 3D-print slicing.</sub><br><br>
-      <sub><code>CATIA V5</code> <code>Ultimaker Cura</code> <code>3D Printing</code> <code>Team Leadership</code></sub>
-    </td>
-    <td valign="top">
-      <b>More experiments</b><br>
-      <sub>Smaller exploratory projects in computer vision, solubility prediction, CFD surrogates and web development are available in my repositories.</sub><br><br>
-      <sub><a href="https://github.com/AsherFerdinand?tab=repositories">Browse all repositories</a></sub>
+      <img src="svg/simulation.svg" width="32" height="32" alt=""><br>
+      <b><a href="https://github.com/AsherFerdinand/VECTOR">VECTOR — Vehicle Simulation Foundation</a></b><br><br>
+      Browser-based 3D vehicle laboratory with a deterministic kinematic bicycle model, manual driving and live telemetry. The v0.1 foundation excludes autonomous navigation, sensors and collision response.<br><br>
+      <sub>TypeScript · React · Three.js · Vitest</sub>
     </td>
   </tr>
 </table>
 
+## Simulation & Digital Engineering
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="svg/thermal.svg" width="32" height="32" alt=""><br>
+      <b><a href="https://github.com/AsherFerdinand/SimulinkMATLAB-dynamic-hydronic-balancing-simulation">Hydronic Heating — Bachelor’s Thesis</a></b><br><br>
+      MATLAB/Simulink study of a 36-room building and its hydronic heating network. Compares uncontrolled, local-thermostat and coordinated supervisory-control strategies for room warm-up.<br><br>
+      <sub>MATLAB · Simulink · Simscape · thermal control</sub>
+    </td>
+    <td width="50%" valign="top">
+      <img src="svg/thermal.svg" width="32" height="32" alt=""><br>
+      <b><a href="https://github.com/AsherFerdinand/THERMA">THERMA — Thermal Systems Research</a></b><br><br>
+      Hydronic-heating digital-twin research with a completed static reference inventory, migration/data plans and MATLAB diagnostic tooling. MATLAB execution and reference validation remain pending; the physics solver and web application are planned.<br><br>
+      <sub>Python · reference analysis · model migration</sub>
+    </td>
+  </tr>
+</table>
+
+### <img src="svg/simulation.svg" width="28" height="28" alt=""> [VIBRA — Structural Dynamics & FEM Workbench](https://github.com/AsherFerdinand/VIBRA/tree/feat/interactive-cae-stress-workbench)
+
+Python workbench for small planar structural models: static, modal, harmonic and transient FEM analysis, beam stress, signal diagnostics and idealised motor-mount studies. The linked development branch includes an interactive Streamlit/Plotly interface and analytical verification; experimental validation remains outstanding.
+
+<sub>Python · NumPy · SciPy · Streamlit · Plotly</sub>
+
+## Software Platforms & Interfaces
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="svg/orbit.svg" width="32" height="32" alt=""><br>
+      <b><a href="https://github.com/AsherFerdinand/orbit-desktop">ORBIT — Windows Desktop Companion</a></b><br><br>
+      Compact desktop interface with native media controls, system telemetry, local Quick Notes and reminders. Rust/Tauri integrates Windows APIs with a React interface; a public v0.5.0 release is available.<br><br>
+      <sub>Rust · Tauri 2 · React · TypeScript</sub>
+    </td>
+    <td width="50%" valign="top">
+      <img src="svg/cloud.svg" width="32" height="32" alt=""><br>
+      <b><a href="https://github.com/AsherFerdinand/docker-fastapi-microservice-stack">Cloud Media & Auth Platform</a></b><br><br>
+      Containerised demonstration of JWT authentication, image uploads, persistent metadata and caching behind an API gateway. Includes an interactive web dashboard; cloud deployment and advanced file workflows remain roadmap items.<br><br>
+      <sub>FastAPI · Docker · PostgreSQL · Redis · Nginx</sub>
+    </td>
+  </tr>
+</table>
+
+## Mechanical Design & Prototyping
+
+<img src="svg/locomotive.svg" width="32" height="32" alt="">
+
+### [3D-Printed Electric Locomotive](https://github.com/AsherFerdinand/3d-printed-electric-locomotive)
+
+University team project taking a locomotive from CAD to physical prototype. As team lead, I coordinated development and contributed primarily to the housing, chassis, coupling design and print preparation; other team members developed additional subsystems.
+
+<sub>CATIA V5 · Ultimaker Cura · mechanical design · additive manufacturing</sub>
+
 ---
 
-<div align="center">
-  <sub>Interested in automotive simulation, vehicle software, test automation and applied AI.</sub><br>
-  <a href="https://github.com/AsherFerdinand?tab=repositories">Explore my repositories</a>
-</div>
-
----
-
-### 📫 Connect with Me
-- **University:** Technische Hochschule Ingolstadt (THI)
-- **LinkedIn:** [linkedin.com/in/ferdinandyurichson/](https://www.linkedin.com/in/ferdinandyurichson/)
+[Explore all repositories](https://github.com/AsherFerdinand?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/ferdinandyurichson/)

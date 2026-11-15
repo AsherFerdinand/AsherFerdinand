@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">ORBIT — desktop island</title>
+<style>.line{fill:none;stroke:#C2410C;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#FF8A3D}}</style>
+<g class="line"><rect x="12" y="29" width="76" height="42" rx="21"/><ellipse cx="50" cy="50" rx="16" ry="9" transform="rotate(-25 50 50)"/><circle cx="50" cy="50" r="1.5"/></g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">Front-facing locomotive</title>
+<style>.line{fill:none;stroke:#C2410C;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#FF8A3D}}</style>
+<g class="line"><path d="M 32 80 C 24 80, 24 65, 24 53 C 24 34, 34 23, 50 23 C 66 23, 76 34, 76 53 C 76 65, 76 80, 68 80 Z" />
+
+
+  <path d="M 33 79 L 26 90" />
+
+
+  <path d="M 67 79 L 74 90" />
+
+
+  <path d="M 40 44 C 40 33, 60 33, 60 44 L 60 48 C 60 56, 40 56, 40 48 Z" />
+
+
+  <path d="M 34 65 L 40 71" />
+
+
+  <path d="M 66 65 L 60 71" />
+</g>
+</svg>

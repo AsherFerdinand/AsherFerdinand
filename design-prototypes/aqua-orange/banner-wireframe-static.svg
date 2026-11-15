@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc"><title id="title">Ferdinand Yurichson — Automotive Wireframe Console</title><desc id="desc">An original automotive engineering portfolio console. Decorative indicators do not report live system status.</desc><style>
+.bg{fill:#FAFAF9}.panel{fill:none;stroke:#D6D3D1}.ink{fill:#18181B}.muted{fill:#64748B}.accent{fill:#C2410C}.wire{fill:none;stroke:#C2410C}.secondary{fill:none;stroke:#EA580C}.pill{fill:none;stroke:#D6D3D1}
+@media(prefers-color-scheme:dark){.bg{fill:#090B0F}.panel,.pill{stroke:#30343B}.ink{fill:#F5F5F4}.muted{fill:#94A3B8}.accent{fill:#FF8A3D}.wire{stroke:#FF8A3D}.secondary{stroke:#FB923C}}
+text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,Liberation Mono,monospace}.wire,.secondary,.panel,.pill{stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+.pulse{animation:none}@keyframes status{0%,100%{opacity:1}50%{opacity:.4}}@media(prefers-reduced-motion:reduce){.pulse{animation:none}}
+</style><rect class="bg" width="1200" height="420" rx="18"/><rect class="panel" x="1" y="1" width="1198" height="418" rx="18"/><path class="panel" d="M1 47h1198"/><circle class="accent pulse" cx="28" cy="25" r="4"/><text class="muted mono" x="45" y="30" font-size="14" letter-spacing="1.3">FERDINAND / ENGINEERING CONSOLE</text><text class="muted mono" x="1147" y="30" text-anchor="end" font-size="13">PORTFOLIO · 2026</text><path class="panel" d="M391 75v310"/>
+<text class="muted mono" x="30" y="85" font-size="12" letter-spacing="1.4">01 / VEHICLE REFERENCE FRAME</text>
+<g class="wire" stroke-width="2.5">
+<!-- Isometric vehicle body, cabin and four wheels; no borrowed artwork. -->
+<path d="M64 222l140-83 135 76-141 84zM64 222v24l134 77 141-84v-24M198 299v24"/>
+<path d="M120 189l72-42 77 44 30 47-101 61-100-58zM120 189l78 45 71-43M198 234v43M143 175l55 31 46-27"/>
+<ellipse class="bg" cx="100" cy="262" rx="8" ry="13" transform="rotate(-29 100 262)"/><ellipse class="bg" cx="173" cy="306" rx="8" ry="13" transform="rotate(-29 173 306)"/><ellipse class="bg" cx="231" cy="294" rx="8" ry="13" transform="rotate(29 231 294)"/><ellipse class="bg" cx="313" cy="245" rx="8" ry="13" transform="rotate(29 313 245)"/>
+<path d="M109 219l17 10m163-7 17-10"/>
+<!-- Three translational axes share one origin. -->
+<path d="M74 338v-50m-6 8 6-8 6 8M74 338l45-26m-11 0h11l-4 10M74 338l-35-20m3 10-3-10 11 1"/>
+</g>
+<g class="accent mono" font-size="12"><text x="69" y="281">Z</text><text x="125" y="314">X</text><text x="23" y="319">Y</text></g>
+<path class="secondary" d="M272 135q31-13 54 7M272 120q42-15 66 9" opacity=".7"/>
+<text class="muted mono" x="166" y="369" font-size="11">GEOMETRY → MODEL → INSIGHT</text>
+<text class="accent mono" x="435" y="98" font-size="13" letter-spacing="2">AUTOMOTIVE ENGINEERING CONSOLE</text>
+<text class="ink" x="431" y="162" font-size="58" font-weight="700" letter-spacing="-1.5">FERDINAND</text>
+<text class="ink" x="431" y="224" font-size="58" font-weight="700" letter-spacing="-1.5">YURICHSON</text>
+<text class="ink" x="435" y="269" font-size="21">Automotive Engineering · Simulation · Intelligent Software</text>
+<text class="muted mono" x="435" y="306" font-size="12" letter-spacing=".8">ENGINEERING SYSTEMS / DIGITAL MODELS / SOFTWARE</text><rect class="pill" x="435" y="340" width="112" height="32" rx="16"/><text class="ink" x="491.0" y="361" text-anchor="middle" font-size="14">EV Systems</text><rect class="pill" x="561" y="340" width="113" height="32" rx="16"/><text class="ink" x="617.5" y="361" text-anchor="middle" font-size="14">Simulation</text><rect class="pill" x="688" y="340" width="155" height="32" rx="16"/><text class="ink" x="765.5" y="361" text-anchor="middle" font-size="14">Battery Analytics</text><rect class="pill" x="857" y="340" width="195" height="32" rx="16"/><text class="ink" x="954.5" y="361" text-anchor="middle" font-size="14">Engineering Software</text></svg>

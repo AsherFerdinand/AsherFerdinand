@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">VIBRA — beam vibration</title>
+<style>
+  .line{fill:none;stroke:#C2410C;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+  @media(prefers-color-scheme:dark){.line{stroke:#FF8A3D}}
+</style>
+<path class="line" d="M15 66h70M19 57v18M24 36c6-20 12-20 18 0s12 20 18 0 12-20 18 0"/>
+</svg>

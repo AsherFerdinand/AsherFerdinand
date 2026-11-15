@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc"><title id="title">Ferdinand Yurichson — Automotive ASCII Console</title><desc id="desc">An original automotive engineering portfolio console. Decorative indicators do not report live system status.</desc><style>
+.bg{fill:#FAFAF9}.panel{fill:none;stroke:#D6D3D1}.ink{fill:#18181B}.muted{fill:#64748B}.accent{fill:#C2410C}.wire{fill:none;stroke:#C2410C}.secondary{fill:none;stroke:#EA580C}.pill{fill:none;stroke:#D6D3D1}
+@media(prefers-color-scheme:dark){.bg{fill:#090B0F}.panel,.pill{stroke:#30343B}.ink{fill:#F5F5F4}.muted{fill:#94A3B8}.accent{fill:#FF8A3D}.wire{stroke:#FF8A3D}.secondary{stroke:#FB923C}}
+text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,Liberation Mono,monospace}.wire,.secondary,.panel,.pill{stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+.pulse{animation:none}@keyframes status{0%,100%{opacity:1}50%{opacity:.4}}@media(prefers-reduced-motion:reduce){.pulse{animation:none}}
+</style><rect class="bg" width="1200" height="420" rx="18"/><rect class="panel" x="1" y="1" width="1198" height="418" rx="18"/><path class="panel" d="M1 47h1198"/><circle class="accent pulse" cx="28" cy="25" r="4"/><text class="muted mono" x="45" y="30" font-size="14" letter-spacing="1.3">FERDINAND / ENGINEERING CONSOLE</text><text class="muted mono" x="1147" y="30" text-anchor="end" font-size="13">PORTFOLIO · 2026</text><text class="accent mono" x="40" y="86" font-size="14">$ open engineering/portfolio</text>
+<text class="ink mono" x="38" y="145" font-size="52" font-weight="700" letter-spacing="-1.4">FERDINAND YURICHSON</text>
+<path class="panel" d="M40 172h1120M437 196v183"/>
+<text class="accent mono" xml:space="preserve" y="211" font-size="19"><tspan x="64" dy="0">       _____________</tspan><tspan x="64" dy="22">     _/  ___   ___  \_</tspan><tspan x="64" dy="22">    /___/___\_/___\___\</tspan><tspan x="64" dy="22">   |  []           []  |</tspan><tspan x="64" dy="22">   |_____  _____  _____|</tspan><tspan x="64" dy="22">      (__)       (__)</tspan><tspan x="64" dy="22">           +----&gt; X</tspan><tspan x="64" dy="22">           |</tspan><tspan x="64" dy="22">           Z</tspan></text>
+<text class="muted mono" x="472" y="220" font-size="13">portfolio.scope</text>
+<text class="ink mono" x="472" y="253" font-size="21">Automotive Engineering</text>
+<text class="ink mono" x="472" y="282" font-size="21">Simulation · Intelligent Software</text>
+<text class="muted mono" x="472" y="320" font-size="13">engineering systems / digital models / software</text>
+<text class="accent mono" x="472" y="369" font-size="14">[ EV ]  [ SIMULATION ]  [ BATTERY ]  [ SOFTWARE ]</text></svg>

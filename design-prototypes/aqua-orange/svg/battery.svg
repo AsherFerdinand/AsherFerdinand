@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">battery icon</title>
+<style>.line{fill:none;stroke:#C2410C;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#FF8A3D}}</style>
+<g class="line"><g transform="scale(1.5625)" stroke-width="3.84"><rect x="10" y="18" width="40" height="30" rx="4" /><path d="M50 27h5v12h-5M18 41l7-10 7 5 10-11M20 24v3m-2-1h4" /></g></g>
+</svg>

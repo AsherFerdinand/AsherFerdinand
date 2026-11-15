@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+<title id="title">VECTOR — local vehicle coordinate frame</title>
+<style>.line{fill:none;stroke:#C2410C;stroke-width:6;stroke-linecap:round;stroke-linejoin:round}@media(prefers-color-scheme:dark){.line{stroke:#FF8A3D}}</style>
+<g class="line"><path d="M50 62V14m-6 7 6-7 6 7M50 62l33-19m-10 0h10l-5 9M50 62L17 43m4 10-4-10 10 1"/><path d="M37 73l17-10 18 10-17 10z"/></g>
+</svg>

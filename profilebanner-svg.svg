@@ -1,19 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Ferdinand Yurichson — Automotive Engineering · Simulation · Intelligent Software</title>
-  <desc id="desc">Orange engineering linework on a theme-aware background: battery cells, telemetry, a dashboard, thermal systems and mechanical geometry.</desc>
+  <desc id="desc">A connected engineering ecosystem: battery, vehicle, CAN nodes, simulation, software, thermal systems and mechanical design share signal paths around a clear central title.</desc>
   <style>
-    .bg{fill:#fff}.name{fill:#18181b}.sub{fill:#52525b}.accent{stroke:#c4510c}.label{fill:#a9430a}.motif{stroke:#c4510c;opacity:.16}.border{stroke:#e4e4e7}
-    @media(prefers-color-scheme:dark){.bg{fill:#0c0c0e}.name{fill:#fafafa}.sub{fill:#b4b4bd}.accent{stroke:#fb923c}.label{fill:#fb923c}.motif{stroke:#fb923c;opacity:.2}.border{stroke:#27272a}}
-    text{font-family:Segoe UI,Arial,sans-serif}.motif,.accent,.border{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .bg{fill:#FFFFFF}.name{fill:#111827}.sub{fill:#4B5563}.accent{stroke:#C2410C}.label{fill:#C2410C}
+    .icon{stroke:#C2410C;opacity:.82}.detail{stroke:#EA580C}.trace{stroke:#9A3412;opacity:.52}.node{fill:#FFFFFF;stroke:#EA580C}.border{stroke:#E5E7EB}
+    @media(prefers-color-scheme:dark){
+      .bg{fill:#0B0D10}.name{fill:#F8FAFC}.sub{fill:#CBD5E1}.accent{stroke:#FB923C}.label{fill:#FB923C}
+      .icon{stroke:#FB923C;opacity:.82}.detail{stroke:#FDBA74}.trace{stroke:#C2410C;opacity:.75}.node{fill:#0B0D10;stroke:#FDBA74}.border{stroke:#27272A}
+    }
+    text{font-family:Segoe UI,Arial,sans-serif}
+    .icon,.trace,.accent,.border{fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .icon,.trace,.node{stroke-width:2}
   </style>
   <rect class="bg" width="1200" height="320" rx="16"/>
   <rect class="border" x="1" y="1" width="1198" height="318" rx="16"/>
-  <g class="motif" stroke-width="2">
-    <rect x="52" y="40" width="111" height="48" rx="6"/><path d="M163 56h8v16h-8M73 52v24m22-24v24m22-24v24m22-24v24M35 120h51l18-18h99"/>
-    <path d="M38 231h37l13-22 14 42 15-30 12 10h65M53 271h133m-120-4v-58"/>
-    <rect x="1007" y="36" width="143" height="84" rx="8"/><path d="M1007 56h143m-122 44 17-20 19 11 23-24 22 17h22"/>
-    <path d="M1010 201l45-34 45 34m-76-10v69h62v-69m-47 54v-37m16 37v-37m16 37v-37M1127 201l21 12v25l-21 12-21-12v-25zM1106 213l21 12 21-12m-21 12v25"/>
-    <path d="M223 52h110l15 15h63M905 262h-98l-18 18h-94"/>
+  <!-- A shared top/bottom signal bus connects every domain; the text area stays clear. -->
+  <g class="trace">
+    <path d="M156 58h40l27-28h287M610 30h355l31 28h44"/>
+    <path d="M196 58v96h-24m24 0v102h-18l-17-15M196 256l27 30h756l25-30h46"/>
+    <path d="M1136 58h26v108h-26m26 0v89h-58"/>
+    <path d="M55 58H30v183h25M30 154h28"/>
+    <path d="M510 47H350l-16-17M610 47h167l17-17M450 286l18-18h274l18 18"/>
+  </g>
+  <!-- Battery module -->
+  <g class="icon">
+    <rect x="55" y="37" width="94" height="42" rx="5"/>
+    <path d="M149 49h7v18h-7M73 47v22m19-22v22m19-22v22m19-22v22"/>
+    <!-- Vehicle and its telemetry port -->
+    <path d="M58 154h12l15-20h49l22 20h16v19h-12m-79 0H58v-19m40 19h44M85 134l6-10h32l11 10"/>
+    <circle cx="89" cy="173" r="9"/><circle cx="151" cy="173" r="9"/>
+    <!-- CAN nodes, with a shared bus and signal trace -->
+    <rect x="55" y="230" width="33" height="22" rx="3"/><rect x="128" y="230" width="33" height="22" rx="3"/>
+    <path d="M71 252v16h73v-16M88 241h40M94 241l5-7 8 14 7-7"/>
+    <!-- Simulation block: input and solved response -->
+    <rect x="510" y="14" width="100" height="44" rx="5"/><path d="M523 45h74M528 45l11-13 13 9 13-19 15 15h13"/>
+    <!-- Software interface -->
+    <rect x="1040" y="31" width="96" height="54" rx="5"/><path d="M1040 46h96M1053 39h2m7 0h2m-11 19h22v15h-22m32-15h36m-36 8h28m-28 7h18"/>
+    <!-- Building / thermal loop -->
+    <path d="M1040 151l42-26 42 26m-72-7v46h60v-46M1063 179v-22m12 22v-22m12 22v-22m12 22v-22M1112 166h24M1052 166h-19v36h79v-12"/>
+    <!-- Mechanical assembly: a dimensioned CAD component -->
+    <path d="M1050 240l27-15 27 15v30l-27 15-27-15zM1050 240l27 15 27-15m-27 15v30M1050 219v-8h54v8m-54-12v8m54-8v8"/>
+  </g>
+  <g class="node">
+    <circle cx="196" cy="154" r="3"/><circle cx="196" cy="256" r="3"/>
+    <circle cx="334" cy="30" r="3"/><circle cx="794" cy="30" r="3"/>
+    <circle cx="450" cy="286" r="3"/><circle cx="760" cy="286" r="3"/>
+    <circle cx="1162" cy="166" r="3"/><circle cx="30" cy="154" r="3"/>
   </g>
   <path class="accent" d="M250 88h42" stroke-width="4"/>
   <text class="name" x="250" y="147" font-size="54" font-weight="700">Ferdinand Yurichson</text>

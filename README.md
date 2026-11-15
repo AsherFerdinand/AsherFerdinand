@@ -10,14 +10,23 @@ Several software-intensive projects below were architected and iteratively devel
 
 ## Toolbox
 
-| Area | Tools & methods |
-| --- | --- |
-| Core software | Python · Rust · TypeScript / JavaScript · React · Tauri · Git / GitHub |
-| Engineering & simulation | MATLAB · Simulink · Simscape · NumPy · Matplotlib · vehicle dynamics · control systems |
-| Data & analytics | pandas · scikit-learn · chronological and held-out-cell evaluation · Streamlit |
-| Automotive & systems | CAN · DBC · python-can · SocketCAN · EV telemetry · scenario-based verification |
-| Platforms & interfaces | FastAPI · Docker · PostgreSQL · Redis · Nginx · native Windows APIs |
-| Mechanical & design | CATIA V5 · SolidWorks · Ultimaker Cura · additive manufacturing |
+**Programming & Development**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat&logo=tauri&logoColor=black) ![Git](https://img.shields.io/badge/Git-F03C2E?style=flat&logo=git&logoColor=white)
+
+**Engineering & Simulation**
+
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat) ![Simulink](https://img.shields.io/badge/Simulink-0076A8?style=flat) ![Simscape](https://img.shields.io/badge/Simscape-0076A8?style=flat) ![CATIA V5](https://img.shields.io/badge/CATIA%20V5-005386?style=flat&logo=dassaultsystemes&logoColor=white) ![SolidWorks](https://img.shields.io/badge/SolidWorks-005386?style=flat&logo=dassaultsystemes&logoColor=white) ![Ultimaker Cura](https://img.shields.io/badge/Ultimaker%20Cura-002B49?style=flat)
+
+**Data Science & Analytics**
+
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+
+**Infrastructure & Automotive Software**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white) ![SocketCAN](https://img.shields.io/badge/SocketCAN-FCC624?style=flat&logo=linux&logoColor=black) ![CAN](https://img.shields.io/badge/CAN-4B5563?style=flat) ![DBC](https://img.shields.io/badge/DBC-4B5563?style=flat) ![python-can](https://img.shields.io/badge/python--can-3776AB?style=flat&logo=python&logoColor=white) ![cantools](https://img.shields.io/badge/cantools-3776AB?style=flat&logo=python&logoColor=white)
+
+**Engineering focus:** vehicle dynamics · control systems · EV telemetry · battery analytics · scenario-based verification · additive manufacturing
 
 ## Automotive Systems & EV Data
 
